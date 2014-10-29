@@ -7,7 +7,8 @@
   :source-paths ["src/main/clojure"]
   :test-paths ["src/test/clojure"]
   :repositories {"sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"}
-  :dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]
+  :dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]
+                 [aprint "0.1.1"]]
   :profiles {:1.2 {:dependencies [[org.clojure/clojure "1.2.0"]]}
              :1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
              :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
